@@ -20,7 +20,7 @@ object Stack {
   def apply(): Stack[Nothing] = EmptyStack
 }
 
-object Test {
+object StackTest {
   def main(args: Array[String]): Unit = {
     val intStack: Stack[Int] = Stack()
     val strStack: Stack[String] = Stack()
